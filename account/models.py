@@ -11,5 +11,5 @@ class User(models.Model):
     
     crawler = models.ForeignKey(Crawler, on_delete=models.CASCADE, related_name="user")
     
-    
+
 
